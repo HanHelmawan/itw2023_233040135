@@ -1,0 +1,36 @@
+body {
+    background-image: url('background.png');
+    background-repeat: no-repeat;
+    background-size: 4000px 300px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: justify;
+    text-align: right;
+    margin-bottom: 30px;
+}
+
+h1 {
+    font-family:comic Sans MS ;
+    font-size: 60px;
+    color: darkblue;
+    text-align: center;
+    
+}
+
+h4 {
+    text-align: right;
+    font-style: italic;
+}
+
+#instagram{
+color: rgb(170, 171, 172);
+}
+#instagram:hover {
+    color: brown;
+}
+#mark{
+    color: blue;
+}
+#mark:hover {
+    color: aliceblue;
+    background-color: blue;
+}
