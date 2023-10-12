@@ -5,6 +5,7 @@ body {
     text-align: right;
 }
 
+
 h1 {
     font-family:comic Sans MS ;
     font-size: 60px;
@@ -18,15 +19,22 @@ h4 {
     font-style: italic;
 }
 
+
 #instagram{
 color: aliceblue;
 }
+
+
 #instagram:hover {
     color: brown;
 }
+
+
 #mark{
     color: blue;
 }
+
+
 #mark:hover {
     color: aliceblue;
     background-color: blue;
