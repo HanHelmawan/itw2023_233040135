@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Shop</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Saira+Extra+Condensed:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- header -->
+        <header class="header">
+            <div class="hero">
+                <h2 class="heading">Sasena Coffee Shop</h2>
+                <p class="sub-heading">Original Coffee</p>
+            </div>
+            <div class="features-1">
+                <h4 class="price">IDR 150K</h4>
+                <p class="item">Arabica 1KG</p>
+            </div>
+            <div class="features-2">
+                <h4 class="price">IDR 200K</h4>
+                <p class="item">Blend 1KG</p>
+            </div>
+            <div class="fitur-3">
+                <h4 class="price">IDR 80K</h4>
+                <p class="item">Gula Aren 500 Gr</p>
+            </div>
+        </header>
+
+        <!-- navbar -->
+        <nav class="menu">
+            <div class="menu-toggle">
+                <input type="checkbox">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="brand">
+                <h1 class="foto" alt="navbar"></h1>
+            </div>
+            <ul class="menu-list">
+                <li><a href="">Home</a></li>
+                <li><a href="">Product</a></li>
+                <li><a href="">Contact</a></li>
+                <li><a href="">About</a></li>
+            </ul>
+        </nav>
+
+        <section class="services">
+            <div class="service">
+                <div class="icon">&#128209;</div>
+                <h3>Course</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet 
+                    minima quae ratione rem, non et.</p>
+            </div>
+            <div class="service">
+                <div class="icon">&#128230;</div>
+                <h3>Delivery</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet 
+                    minima quae ratione rem, non et.</p>
+            </div>
+            <div class="service">
+                <div class="icon">&#128242;</div>
+                <h3>Social Media</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet 
+                    minima quae ratione rem, non et.</p>
+            </div>
+            <div class="service">
+                <div class="icon">&#128085;</div>
+                <h3>Merch</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet 
+                    minima quae ratione rem, non et.</p>
+            </div>
+        </section>
+
+        <section class="gallery">
+            <h2>Gallery</h2>
+            <img src="https://source.unsplash.com/random/201x201" alt="">
+            <img src="https://source.unsplash.com/random/202x202" alt="">
+            <img src="https://source.unsplash.com/random/203x203" alt="">
+            <img src="https://source.unsplash.com/random/204x204" alt="">
+            <img src="https://source.unsplash.com/random/205x205" alt="">
+            <img src="https://source.unsplash.com/random/206x206" alt="">
+            <img src="https://source.unsplash.com/random/207x207" alt="">
+            <img src="https://source.unsplash.com/random/208x208" alt="">
+            <img src="https://source.unsplash.com/random/209x209" alt="">
+            <img src="https://source.unsplash.com/random/2010x2010" alt="">
+
+        </section>
+    </div>
+
+    <!-- javascript -->
+    <script>
+        const menuToggle = document.querySelector('.menu-toggle input');
+        const nav = document.querySelector('nav ul');
+
+        menuToggle.addEventListener('click', function() {
+        nav.classList.toggle('slide');
+    });
+    </script>
+</body>
+</html>
