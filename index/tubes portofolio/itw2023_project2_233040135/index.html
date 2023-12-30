@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SASENA COFFEE</title>
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- bootstrap css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+  </head>
+  <body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container-fluid">
+        <span class="navbar-brand"><img src="img/logo.jpg" alt=""></span>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ms-auto mb-lg-0">
+            <a class="nav-link active mx-3" aria-current="page" href="#Home">Home</a>
+            <a class="nav-link mx-3" href="#Tentang">Tentang</a>
+            <a class="nav-link mx-3" href="#Produk">Produk</a>
+            <a class="nav-link mx-3" href="#Ulasan">Ulasan</a>
+            <a class="nav-link mx-3" href="#Kontak">Kontak</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+      <!-- end navbar -->
+
+     <!-- banner -->
+     <section id="Home">
+     <div class="container-fluid banner">
+      <div class="container banner-content col-lg-6">
+        <div class="text-start">
+          <h2 class="mt-5">Selamat Datang di <span class="sasena">Sasena Coffee Shop</span></h2>
+          <p class="d-none d-sm-block">"Dalam setiap tegukan kopi, terdapat aroma petualangan yang menari-nari di lidah. Secangkir Kopi dahulu, Bersenang-senang kemudian."</p>
+        </div>
+      </div>
+     </div>
+    </section>
+     <!-- end banner -->
+
+      <!-- carousel -->
+      <section id="Tentang">
+      <div class="container-fluid carousel-contain py-5">
+        <div class="container-fluid">
+          <h4 class="fs-1 text-center mb-5">Tentang <span class="kami">Kami</span></h4>
+          <div id="carouselExampleCaptions" class="carousel slide col-lg-6 offset-lg-3">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="img/carousel1.png" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="img/carousel2.png" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="img/carousel3.png" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+       </div>
+      </section>
+       <!-- end carousel -->
+
+       <!-- card -->
+       <section id="Produk">
+       <div class="container-fluid card-contain py-5">
+        <div class="container">
+          <h2 class="text-center fs-1 mb-5">Produk <span class="kami2">Kami</span></h2>
+
+          <div class="row">
+            <!-- produk 1 -->
+          <div class="col-lg-4 col-md-4 col-sm-6 mb-3">
+            <div class="card bg-dark text-light">
+              <img src="img/arabica arjuno.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Arjuno Beans</h5>
+                <p class="card-text"> Rasanya yang kaya dan kompleks. Rasa yang dihasilkan meliputi keasaman yang seimbang.</p>
+                <button class="btn dropdown-toggle" data-bs-toggle="dropdown" style="background-color: brown;">Lihat</button>
+                <ul class="dropdown-menu dropdown-menu-dark">
+                  <li><a class="dropdown-item" href="#">Beli</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Produk Detail</a></li>
+                </ul>
+              </div>
+          </div>
+          </div>
+
+            <!-- produk 2 -->
+          <div class="col-lg-4 col-md-4 col-sm-6 mb-3">
+            <div class="card bg-dark text-light">
+              <img src="img/arabica ciwidey.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Ciwidey Beans</h5>
+                <p class="card-text">Terdapat ciri khas dalam cita rasanya. Mencakup sentuhan buah, bunga, atau rempah-rempah tertentu.</p>
+                <button class="btn dropdown-toggle" data-bs-toggle="dropdown" style="background-color: brown;">Lihat</button>
+                <ul class="dropdown-menu dropdown-menu-dark">
+                  <li><a class="dropdown-item" href="#">Beli</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Produk Detail</a></li>
+                </ul>
+              </div>
+          </div>
+          </div>
+
+          <!-- produk 3 -->
+          <div class="col-lg-4 col-md-4 col-sm-6 mb-3">
+            <div class="card bg-dark text-light">
+              <img src="img/arabica java puntang.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Puntang Beans</h5>
+                <p class="card-text">Manis dan sedikit asam, memiliki rasa buah lokal, mirip rasa jambu biji, pisang, dan nangka.</p>
+                <button class="btn dropdown-toggle" data-bs-toggle="dropdown" style="background-color: brown;">Lihat</button>
+                <ul class="dropdown-menu dropdown-menu-dark">
+                  <li><a class="dropdown-item" href="#">Beli</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Produk Detail</a></li>
+                </ul>
+              </div>
+          </div>
+          </div>
+
+          <!-- produk 4 -->
+          <div class="col-lg-4 col-md-4 col-sm-6 mb-3">
+            <div class="card bg-dark text-light">
+              <img src="img/arabica kamojang.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Kamojang Beans</h5>
+                <p class="card-text">Berbagai nuansa rasa, keasaman yang seimbang dan sentuhan manis yang lembut.</p>
+                <button class="btn dropdown-toggle" data-bs-toggle="dropdown" style="background-color: brown;">Lihat</button>
+                <ul class="dropdown-menu dropdown-menu-dark">
+                  <li><a class="dropdown-item" href="#">Beli</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Produk Detail</a></li>
+                </ul>
+              </div>
+          </div>
+          </div>
+
+          <!-- produk 5 -->
+          <div class="col-lg-4 col-md-4 col-sm-6 mb-3">
+            <div class="card bg-dark text-light">
+              <img src="img/coffee sachet.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Coffee Sachet</h5>
+                <p class="card-text">Sentuhan dari biji kopi yang digiling dengan halus, menciptakan rasa yang lekoh untuk disaji.</p>
+                <button class="btn dropdown-toggle" data-bs-toggle="dropdown" style="background-color: brown;">Lihat</button>
+                <ul class="dropdown-menu dropdown-menu-dark">
+                  <li><a class="dropdown-item" href="#">Beli</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Produk Detail</a></li>
+                </ul>
+              </div>
+          </div>
+          </div>
+
+          <!-- produk 6 -->
+          <div class="col-lg-4 col-md-4 col-sm-6 mb-3">
+            <div class="card bg-dark text-light">
+              <img src="img/guren.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Brown Sugar</h5>
+                <p class="card-text">Memiliki aroma yang khas dan kaya, terdapat harum karamel memberikan nuansa yang lembut dan alami.</p>
+                <button class="btn dropdown-toggle" data-bs-toggle="dropdown" style="background-color: brown;">Lihat</button>
+                <ul class="dropdown-menu dropdown-menu-dark">
+                  <li><a class="dropdown-item" href="#">Beli</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Produk Detail</a></li>
+                </ul>
+              </div>
+          </div>
+          </div>
+        </div>
+        </div>
+       </div>
+      </section>
+       <!-- end card -->
+
+       <!-- accordion -->
+       <div class="my-5 container accordion-contain col-10 col-sm-9 col-md-8 col-lg-6">
+        <h2 class="text-center text-dark mb-5">Kenapa harus <span class="belanja">beli disini?</span></h2>
+       <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+             Kopi Original
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              Diambil dari beberapa gunung penghasil biji kopi yang ada di pulau Jawa, dan langsung dipetik oleh petani kopi yang berasal dari daerah asli. Yang menciptakan produk kopi kami menghasilkan produk kopi yang original kopi.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              Dari Biji Kopi Terbaik di Pulau Jawa
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              Biji kopi yang dipilih dengan baik serta disortir dengan sangat hati-hati. Oleh para petani kopi yang sudah ahli dalam bidangnya, dapat menciptakan rasa yang sangat nikmat untuk para penikmat kopi dari berbagai penjuru. dan rasanya yang sangat cocok di lidah orang Indonesia.  
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+             Terbaik di Harganya
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              Meskipun memiliki rasa yang original dan diambil dari biji kopi terbaik dari daerah pulau Jawa, kualitas nya yang tak tertandingi dan kepuasan yang luar biasa dengan produk kami yang terbaik di harganya! Rasakan kenikmatan sejati tanpa mengorbankan kualitas. 
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+             Aroma yang Khas
+            </button>
+          </h2>
+          <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              Rasakan keajaiban setiap hari dengan kopi kami, di mana keharuman kopi yang khas menciptakan pengalaman yang tak terlupakan. Nikmati aroma kopi yang memikat dan membangkitkan semangat, menjadikan setiap momen istimewa bersama kami. Terdapat berbagai nuansa rasa pada setiap biji kopipnya yang menghasilkan kekhasan pada aroma dari setiap kopinya.  
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+             Telah Mendapatkan Sertifikasi P-IRT
+            </button>
+          </h2>
+          <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              Produk kami telah mendapatkan sertifikasi P-IRT (Produksi Industri Rumah Tangga). Tentunya dengan adanya sertifikasi ini membuat kepercayaan pada konsumen kami meningkat. Serta keamanan serta kemutuannya yang sudah terverifikasi oleh pemerintah daerah.
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+       <!-- end accordion -->
+
+       <!-- blockquote -->
+       <section id="Ulasan">
+       <div class="container-fluid py-5 bg-dark text-light">
+        <div class="container">
+          <h2 class="text-center mb-5">Menurut <span class="customer">Customer Kami</span></h2>
+          
+          <div class="col-12 mb-5">
+            <figure class="text-center text-md-start">
+              <blockquote class="blockquote">
+                <p>"Rasa dan aroma yang menggugah, menjadikan kopi ini pilihan sempurna bagi</p> 
+                 <p>pecinta kopi yang menginginkan pengalaman yang tak terlupakan."
+                </p>
+              </blockquote>
+            </figure>
+          </div>
+          <div class="col-12 mb-5">
+            <figure class="text-center text-md-end">
+              <blockquote class="blockquote">
+                <p>"Dari biji pilihan hingga proses sangrai sempurna, kualitasnya tidak tertandingi.</p>
+                </p> Sesuai untuk pencinta kopi yang menghargai kualitas premium."</p>
+              </blockquote>
+            </figure>
+          </div>
+          <div class="col-12 mb-5">
+            <figure class="text-center">
+              <blockquote class="blockquote">
+                <p>"Biji kopi ini memenuhi ekspektasi saya. Aroma menggoda dan rasa penuh,</p>
+                </p>seperti kopi langsung dari kebun."</p>
+              </blockquote>
+            </figure>
+          </div>
+          <div class="col-12 mb-5">
+            <figure class="text-center text-md-start">
+              <blockquote class="blockquote">
+                <p>"Pembelian yang memuaskan. Biji kopi segar dengan keasaman yang sempurna."</p>
+              </blockquote>
+            </figure>
+          </div>
+          <div class="col-12 mb-5">
+            <figure class="text-center text-md-end">
+              <blockquote class="blockquote">
+                <p>"Autentik dan terjangkau. Rasa kopi kelas atas tanpa mengorbankan kualitas."</p>
+              </blockquote>
+            </figure>
+          </div>
+        </div>
+      </div>
+    </section>
+       <!-- end blockquote -->
+
+       <!-- contact -->
+       <section id="Kontak">
+       <div class="form-area mb-5">
+        <div class="container">
+          <div class="row single-form g-0">
+            <div class="col-sm-12 col-lg-6">
+              <div class="left">
+                <h2>Kontak Kami Untuk<span> <br>Kebutuhan Bisnis</span></h2>
+              </div>
+            </div>
+            <div class="col-sm-12 col-lg-6">
+              <div class="right">
+
+                <div class="alert alert-success role="alert" id="myAlert">
+                  Berhasil Terkirim! 
+                </div>
+                
+                <form action="https://formspree.io/f/xrgngbwv" method="POST">
+                  <div class="mb-3">
+                    <label for="exampleInputName1" class="form-label">Name</label>
+                    <input type="text" class="form-control" id="exampleInputName1" aria-describedby="nameHelp" placeholder="Name" name="name">
+                    <div id="nameHelp" class="form-text"></div>
+                  </div>
+                  <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email" name="email">
+                  </div>
+                  <div class="mb-3">
+                    <label class="form-label">Message</label>
+                    <textarea type="message" class="form-control" id="exampleInputMessage1" placeholder="Message" name="message"></textarea>
+                  </div>
+                  
+                  <button type="submit" onclick="
+                  myFunction()" class="btn btn-primary">Submit</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+       </div>
+      </section>
+       <!-- end contact -->
+
+       <!-- footer -->
+       <footer class="bg-dark text-light pt-5 pb-4">
+
+        <div class="container text-center text-md-start">
+          <div class="row text-center text-md-start">
+
+            <!-- Alamat -->
+            <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+              <h5 class="text-uppercase mb-4 font-weight-bold" style="color: #dba75b;">Alamat</h5>
+              <p>
+                <h6>SASENA COFFEE</h6>
+              </p>
+              <p>
+              Jalan Sersan Badjuri Wing III, Jl. Zamrud XX No.195F, Ciwaruga, Kec. Parongpong, Kabupaten Bandung Barat, Jawa Barat 40559
+              </p>
+              <p><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d63375.93600433919!2d107.5809296!3d-6.8910806!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e73f368dc5e1%3A0x57a7c998ec77cab!2sSASENA%20Coffee!5e0!3m2!1sid!2sid!4v1703921495863!5m2!1sid!2sid" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></p>
+            </div>
+
+            <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+              <a href="#Home" style="text-decoration: underline; color: #dba75b;"><h5 class="mb-4" style="color: #dba75b;">Ketuk untuk kembali ke atas</h5></a>              
+            </div>
+
+            <!-- Sosmed -->
+            <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+              <h5 class="text-uppercase mb-4 font-weight-bold" style="color: #dba75b;">Sosial Media</h5>
+              <p style="fill: white;" class="fs-3">
+                <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24"><path d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm0 7.082c1.602 0 1.792.006 2.425.035 1.627.074 2.385.845 2.46 2.459.028.633.034.822.034 2.424s-.006 1.792-.034 2.424c-.075 1.613-.832 2.386-2.46 2.46-.633.028-.822.035-2.425.035-1.602 0-1.792-.006-2.424-.035-1.63-.075-2.385-.849-2.46-2.46-.028-.632-.035-.822-.035-2.424s.007-1.792.035-2.424c.074-1.615.832-2.386 2.46-2.46.632-.029.822-.034 2.424-.034zm0-1.082c-1.63 0-1.833.007-2.474.037-2.18.1-3.39 1.309-3.49 3.489-.029.641-.036.845-.036 2.474 0 1.63.007 1.834.036 2.474.1 2.179 1.31 3.39 3.49 3.49.641.029.844.036 2.474.036 1.63 0 1.834-.007 2.475-.036 2.176-.1 3.391-1.309 3.489-3.49.029-.64.036-.844.036-2.474 0-1.629-.007-1.833-.036-2.474-.098-2.177-1.309-3.39-3.489-3.489-.641-.03-.845-.037-2.475-.037zm0 2.919c-1.701 0-3.081 1.379-3.081 3.081s1.38 3.081 3.081 3.081 3.081-1.379 3.081-3.081c0-1.701-1.38-3.081-3.081-3.081zm0 5.081c-1.105 0-2-.895-2-2 0-1.104.895-2 2-2 1.104 0 2.001.895 
+                  2.001 2s-.897 2-2.001 2zm3.202-5.922c-.397 0-.72.322-.72.72 0 
+                  .397.322.72.72.72.398 0 .721-.322.721-.72 0-.398-.322-.72-.721-.72z"/></svg> : sasenacoffee
+              </p>
+              <p style="fill: white;" class="fs-3">
+                <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24"><path d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-2 10h-2v2h2v6h3v-6h1.82l.18-2h-2v-.833c0-.478.096-.667.558-.667h1.442v-2.5h-2.404c-1.798 0-2.596.792-2.596 2.308v1.692z"/></svg> : Sasena Coffee
+              </p>
+            </div>
+          </div>
+          <hr class="mb-4">
+
+          <div>
+            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+              <p>Copyright &#169;2023 All Rights Reserved | Sasena Coffee </p>
+            </div>
+          </div>
+        </div>
+
+       </footer>
+       <!-- end footer -->
+
+      <!-- bootstrap js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>

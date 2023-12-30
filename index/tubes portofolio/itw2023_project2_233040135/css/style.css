@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    scroll-behavior: smooth;
+}
+
+/* navbar */
+.navbar-brand img {
+    scale: 0.8;
+    width: 400px;
+    height: 70px;
+}
+
+/* banner */
+.banner {
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('../img/banner.png');
+    background-size: cover;
+    background-position: center;
+    background-image: url('../img/banner.png');
+}
+
+.banner-content {
+    height: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+}
+
+.text-start {
+    font-size: larger;
+}
+
+.sasena {
+    color: #dba75b;
+}
+
+/* carousel */
+.carousel-contain {
+    background-color: #252525;
+    color: white;
+}
+
+.carousel-item img {
+    height: 50vh;
+}
+
+.kami {
+    color: brown;
+}
+
+/* card */
+.kami2 {
+    color: brown;
+}
+
+/* accordion */
+.belanja {
+    color: brown;
+}
+
+/* blockquote */
+.customer {
+    color: brown;
+}
+
+/* form */
+.form-area {
+    padding-top: 5%;
+}
+
+.row.single-form {
+    box-shadow: 0 2px 20px -5px rgba(0,0,0,0.5);
+    background: #fff;
+}
+
+.left {
+    background: brown;
+    padding: 200px 93px;
+}
+
+.left h2 {
+    color: #fff;
+    font-weight: 100;
+    font-size: 48px;
+}
+
+.left h2 span {
+    font-weight: 700;
+    color: #dba75b;
+}
+
+.right {
+    padding: 70px 100px;
+    position: relative;
+}
+
+.right i {
+    position: relative;
+    font-size: 80px;
+    left: -27px;
+    top: 40px;
+    color: #fff;
+}
+
+.form-control {
+    border: 20px solid #000;
+}
+
+.right button {
+    border: none;
+    border-radius: 0;
+    background: #0f0f0f;
+    width: 180px;
+    color: #fff;
+    padding: 15px 0;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.right button:hover {
+    background: #252525;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .right i {
+        top: -52px;
+        transform: rotate(90deg);
+        left: 50%;
+    }
+}
+
+@media (max-width: 767px) {
+    .left {
+        padding: 90px 15px;
+        text-align: center;
+    }
+
+    .left h2 {
+        font-size: 25px;
+    }
+
+    .right {
+        padding: 25px;
+    }
+
+    .right i {
+        top: -52px;
+        transform: rotate(90deg);
+        left: 45%;
+    }
+
+    .right button {
+        width: 150px;
+        padding: 12px 0;
+    }
+}
+
+
